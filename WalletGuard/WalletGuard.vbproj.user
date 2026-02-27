@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Controls\MetricCard.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\SidebarButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDashboard_Layout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDeudas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormGastosRecurrentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormHistorialRecurrentes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPagoDeuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormProyeccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegistroMovimiento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReporteFlujoCaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

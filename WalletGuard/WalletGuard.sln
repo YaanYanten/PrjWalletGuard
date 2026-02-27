@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WalletGuard", "WalletGuard.vbproj", "{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BL_WalletGuard", "..\BL_WalletGuard\BL_WalletGuard.vbproj", "{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DL_WalletGuard", "..\DL_WalletGuard\DL_WalletGuard.vbproj", "{7463D2EB-1439-46A0-8382-5813D5D2C2CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WalletGuards", "WalletGuards", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7463D2EB-1439-46A0-8382-5813D5D2C2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7463D2EB-1439-46A0-8382-5813D5D2C2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7463D2EB-1439-46A0-8382-5813D5D2C2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7463D2EB-1439-46A0-8382-5813D5D2C2CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3B1B81E-8ED6-CBD3-9414-F805ACC922DE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{AA2D861C-4AAE-4A13-AFE2-A71B2112DD01} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7463D2EB-1439-46A0-8382-5813D5D2C2CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A7D9F8B-693F-4CB9-970F-F5514FA04793}
+	EndGlobalSection
+EndGlobal
